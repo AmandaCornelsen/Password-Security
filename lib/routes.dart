@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:passwordsecurity/core/auth_guard.dart';
 import 'package:passwordsecurity/screens/home_screen.dart';
 import 'package:passwordsecurity/screens/intro_screen.dart';
 import 'package:passwordsecurity/screens/login_screen.dart';
@@ -19,7 +20,9 @@ class Routes {
       case login:
         return MaterialPageRoute(builder: (_) => LoginScreen());
       case home:
-        return MaterialPageRoute(builder: (_) => HomeScreen());
+        // Wrap HomeScreen with AuthGuard so only authenticated users can access it
+        return MaterialPageRoute(
+            builder: (_) => AuthGuard(child: HomeScreen()));
       default:
         return MaterialPageRoute(
           builder: (_) =>

@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "388092997037",
+    "project_id": "flutter-firebase-app-9afc3",
+    "storage_bucket": "flutter-firebase-app-9afc3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388092997037:android:0309aa8cc5d6f429870524",
+        "android_client_info": {
+          "package_name": "br.com.amandacornelsen.flutterfirebaseapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBATohBEaij8qlWMZ95Zlxf_Xn_YfAaG_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388092997037:android:5d6c4cf004d4a758870524",
+        "android_client_info": {
+          "package_name": "br.com.amandacornelsen.flutterpasswordsecurity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBATohBEaij8qlWMZ95Zlxf_Xn_YfAaG_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388092997037:android:f5fb125a9c209ab8870524",
+        "android_client_info": {
+          "package_name": "br.com.amandacornelsen.passwordsecurity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBATohBEaij8qlWMZ95Zlxf_Xn_YfAaG_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
